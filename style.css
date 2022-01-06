@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+.container{
+  display: flex;
+  margin-bottom: 100px;
+}
+.main{
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.inner-column {
+  width: 50%;
+}
+.user-image {
+    width:65%;
+}
+#image{
+    text-align: center;
+}
+h1 {
+  font-size: 50px;
+  border-left: 5px solid;
+  border-image:linear-gradient(45deg,rgb(106, 106, 194), rgb(230, 181, 90));
+  border-image-slice: 1;
+  padding-left: 2%;
+  font-family: san-serif;
+}
+.color-text{
+  color: rgb(230, 181, 90);
+}
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+  font-family: poppins;
+  cursor: pointer;
+  background-image: linear-gradient(45deg,rgb(106, 106, 194), rgb(230, 181, 90));
+}
+.my-mission-image{
+    width: 30%;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 40px;
+}
+#mission-area{
+    background-color: #EDF5F6;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2%;
+}
+#vision-area{
+    background-color: #FFEEEE;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2%;
+}
+#goals-area{
+    background-color: #FFF4D6;
+    border-radius: 10px;
+    padding: 2%;
+    margin-right: 2%;
+}
+#develop-area{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+}
+#global-community{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 250px;
+}
+input[type="text"],[type="email"], textarea{
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: poppins;
+    background-color: rgba(0, 0,0,0);
+}
+.contact-form{
+    width: 50%;
+    background:#EDF5F6;
+    margin: auto;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+#footer-color-text{
+    color:#4285F4 ;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+}
